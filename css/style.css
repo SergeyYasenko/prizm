@@ -164,8 +164,17 @@ span {
 
 .video {
   width: 100%;
+  min-height: 300px;
   flex: 1 1 auto;
   padding: 0px 0px 120px 0px;
+}
+
+.video1 {
+  width: 100%;
+  min-height: 300px;
+  flex: 1 1 auto;
+  padding: 0px 0px 120px 0px;
+  display: none;
 }
 
 .logo {
@@ -344,7 +353,7 @@ span {
 
   .content__body {
     background-image: url("../img/arrow.svg");
-    background-position: 90% 15%;
+    background-position: 90% 12%;
     background-repeat: no-repeat;
     background-size: 10% 4%;
   }
@@ -466,11 +475,27 @@ span {
     color: #1C1621;
     padding: 7px 0px 38px 0px;
   }
+
+  .video {
+    width: 100%;
+    min-height: 300px;
+    flex: 1 1 auto;
+    padding: 0px 0px 120px 0px;
+    display: none;
+  }
+
+  .video1 {
+    width: 100%;
+    min-height: 300px;
+    flex: 1 1 auto;
+    padding: 0px 0px 120px 0px;
+    display: block;
+  }
 }
 @media screen and (max-width: 500px) {
   .content__body {
     background-image: url("../img/arrow.svg");
-    background-position: 90% 17%;
+    background-position: 90% 13%;
     background-repeat: no-repeat;
     background-size: 10% 4%;
   }
@@ -489,7 +514,7 @@ span {
 
   .content__body {
     background-image: url("../img/arrow1.svg");
-    background-position: 95% 16%;
+    background-position: 95% 14%;
     background-repeat: no-repeat;
     background-size: 10% 6%;
   }
