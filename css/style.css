@@ -207,6 +207,7 @@ span {
 .button-2 {
   height: 70px;
   padding: 20px 57px;
+  color: #000;
   border: 1px solid #5b00a4;
   box-sizing: border-box;
   border-radius: 100px;
@@ -214,7 +215,7 @@ span {
   font-style: normal;
   font-size: 24px;
   line-height: 28px;
-  font-weight: 700;
+  font-weight: 400;
   background: transparent;
   cursor: pointer;
   transition: all 0.3s ease;
