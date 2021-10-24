@@ -228,6 +228,7 @@ span {
 
 .maintenance__row1 {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   flex: 1 1 50%;
 }
@@ -256,7 +257,7 @@ span {
   color: #000000;
 }
 .maintenance__text {
-  min-width: 380px;
+  max-width: 426px;
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 400;
@@ -378,8 +379,8 @@ span {
 
   .content__offer {
     width: 320px;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 20px;
+    line-height: 23px;
     padding: 0px 0px 34px 0px;
   }
 
@@ -405,12 +406,21 @@ span {
   .button-2 {
     width: 100%;
     margin: 0px 0px 72px 0px;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 400;
+  }
+
+  .button-2:hover {
+    display: none;
   }
 
   .registration__subtext {
     background: none;
     margin: 0px 0px 36px 0px;
     padding: 0;
+    font-size: 20px;
+    line-height: 23px;
   }
 
   .maintenance__row1 {
@@ -435,8 +445,8 @@ span {
     font-family: "Gilroy";
     font-style: normal;
     font-weight: 500;
-    font-size: 24px;
-    line-height: 28px;
+    font-size: 26px;
+    line-height: 30px;
     color: #000000;
     padding: 20px 0px 15px 0px;
   }
@@ -446,7 +456,7 @@ span {
     font-family: "Gilroy";
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 25px;
     color: #000000;
   }
@@ -472,7 +482,7 @@ span {
     font-size: 18px;
     line-height: 139%;
     text-align: center;
-    color: #1C1621;
+    color: #1c1621;
     padding: 7px 0px 38px 0px;
   }
 
